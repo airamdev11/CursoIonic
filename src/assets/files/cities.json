@@ -1,0 +1,16 @@
+{
+    "data":[
+        {
+            "name": "Guadalupe",
+            "image": "https://th.bing.com/th/id/R.2665f7f2960cacec6940f8d479943b74?rik=xot11oL2gNsjDA&pid=ImgRaw&r=0"
+        },
+        {
+            "name": "Monterrey",
+            "image": "https://th.bing.com/th/id/R.e2f9260d77b6481bc625735c0fb838d9?rik=rrHzepKmu%2fil6w&pid=ImgRaw&r=0"
+        },
+        {
+            "name": "Juárez",
+            "image": "https://th.bing.com/th/id/R.27bfda80447ac2fc45fa7bc700269299?rik=eJZ%2b5e1dZqEwnA&pid=ImgRaw&r=0"
+        }
+    ]
+}

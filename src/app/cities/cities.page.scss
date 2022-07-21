@@ -1,0 +1,23 @@
+ion-toolbar{
+    background-color: var(--ion-color-mycolor);
+}
+
+.container{
+    background-color: white;
+}
+
+.card{
+    text-align: center;
+}
+
+ion-card-header ion-card-subtitle, ion-card-header ion-card-title{
+    white-space:normal; 
+}
+
+ion-card-content{
+    background-size: cover;
+    height: 200px;
+    background-repeat:no-repeat;
+    background-position: center center;
+    max-height: 250px;
+}

@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar color="mycolor">
+    <ion-title>customers</ion-title>
+  </ion-toolbar>
+
+  <ion-toolbar color="mycolor">
+    <ion-searchbar placeholder="Buscar" animated (ionChange)="searchCustomer($event)"></ion-searchbar>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <!-- <div class="sticky-container" *ngIf="permission">
+    <ion-icon name="search-outline"></ion-icon>
+  </div> -->
+
+  <div class="container">
+
+    <ion-list *ngIf="permission">
+      <ion-list-header> Recent Conversations </ion-list-header>
+
+      <ion-item *ngFor="let user of searchedUser">
+        <ion-avatar slot="start">
+          <img src="{{user.image}}" />
+        </ion-avatar>
+        <ion-label>
+          <h2>{{user.name}}</h2>
+          <p>{{user.affiliations[0]}}</p>
+        </ion-label>
+        <a class="wiki-a" target="_blank" href="{{user.wiki}}">Wiki</a>
+      </ion-item>
+    </ion-list>
+    
+    <ion-label id="label-permisos" *ngIf="!permission">NO TIENES PERMISOS</ion-label>
+    <br>
+
+  </div>
+</ion-content>
